@@ -31,3 +31,5 @@ Typically, gradient checkpointing can reduce memory usage by 50-60%, which is ma
 It is because we compute some activations twice. So there's always a tradeoff between memory and run-time.
 
 Yet, gradient checkpointing is an extremely powerful technique to train larger models without resorting to more intensive techniques like distributed training, for instance.
+
+The code to implement is under study.
